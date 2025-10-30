@@ -2,6 +2,13 @@
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
+/* Color Palette */
+:root {
+  --primary: #4CAF50; /* Green */
+  --secondary: #2196F3; /* Blue */
+  --accent: #FF9800; /* Orange */
+}
+
 /* Universal Selector for default formatting*/
 * {
  /* 
