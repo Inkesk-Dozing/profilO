@@ -24,7 +24,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Prepare skeleton.html as entrypoint
+      - name: Prepare Skeleton.html as entrypoint
         run: |
           mkdir _site
           cp skeleton.html _site/index.html
