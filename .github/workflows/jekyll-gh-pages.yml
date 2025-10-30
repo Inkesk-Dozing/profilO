@@ -1,4 +1,4 @@
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy static page
 
 on:
   push:
@@ -24,9 +24,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Prepare Skeleton.html as entrypoint
+      - name: Prepare Skeleton.html
         run: |
-          mkdir _site
+          mkdir -p _site
           cp skeleton.html _site/index.html
 
       - name: Upload artifact
